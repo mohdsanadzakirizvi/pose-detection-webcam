@@ -1,1 +1,1 @@
-# yoga-pose-detector
+# pose-detection-webcam
