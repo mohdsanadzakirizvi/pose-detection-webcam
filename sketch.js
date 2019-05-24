@@ -145,9 +145,6 @@ function gotResults(err, result) {
       select('#result').html('Result: '+result.label);
       select('#confidence').html('Confidence: '+`${confidences[result.label] * 100} %`);
     }
-
-    select('#confidenceA').html('Confidence A: '+`${confidences['A'] ? confidences['A'] * 100 : 0} %`);
-    select('#confidenceB').html('Confidence B: '+`${confidences['B'] ? confidences['B'] * 100 : 0} %`);
   }
 
   classify();
